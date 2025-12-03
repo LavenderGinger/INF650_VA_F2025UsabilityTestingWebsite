@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar ui {
+    padding: 2%;
+    text-align: center;
+}
+
+.navbar {
+  color: #000080;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 0 15px;
+  font-size: 90%;
+  text-align: right;
+}
+
+.navbar a:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.navbar a.active {
+  background-color: #e0f7fa;
+  border: 2px solid #000080;
+}
+
+body {
+  color: #000036;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #ffffff, #87CEEB);
+  min-height: 100vh;
+  padding: 0;
+}
+
+header {
+  background-color: #002171;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.navbar ul {
+  color: #000080;
+  text-decoration: none;
+  padding: 15px 10px;
+  font-size: 100%;
+  display: flex;
+  transition: background-color 0.3s;
+}
+
+
+table {
+  border: 2px solid #dee4e7; 
+  border-collapse: collapse;
+  width: 90%;
+  margin: 20px auto;
+}
+
+td {
+  padding: 0.5em;
+  border: 2px solid #3399CC;  
+  text-align: center;
+}
+
+th {
+  padding: 0.5em;
+  border: 2px solid #3399CC;  
+}
+
+tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #;
+}
+
+@media (min-width: 600px) {
+.navbar ui {
+    padding: 2.5%;
+    text-align: center;
+}
+.navbar {
+  color: #000080;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 0 15px;
+  font-size: 90%;
+  text-align: right;
+}
+}
+
+p {
+    padding-left: 0 1%;
+    padding-right: 0 1%;
+}
