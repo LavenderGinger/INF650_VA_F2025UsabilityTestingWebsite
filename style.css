@@ -86,6 +86,7 @@ tr:nth-of-type(odd) {
 .navbar ui {
     padding: 2.5%;
     text-align: center;
+    background-color: #6ec7eb;
 }
 .navbar {
   color: #000080;
