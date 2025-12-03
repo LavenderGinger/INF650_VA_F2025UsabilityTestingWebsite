@@ -47,6 +47,7 @@ header {
 
 .navbar ul {
   color: #000080;
+  background-color: #6ec7eb;
   text-decoration: none;
   padding: 15px 10px;
   font-size: 100%;
@@ -88,6 +89,7 @@ tr:nth-of-type(odd) {
 }
 .navbar {
   color: #000080;
+  background-color: #6ec7eb;
   text-decoration: none;
   padding: 10px 25px;
   font-weight: bold;
